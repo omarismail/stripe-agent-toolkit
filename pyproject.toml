@@ -1,0 +1,10 @@
+[project]
+name = "terraform_agent_toolkit"
+version = "0.1.0"
+description = "MVP SDK for managing Terraform via agent toolkit"
+authors = [ { name="OpenAI" } ]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.pytest.ini_options]
+addopts = "-vv"
